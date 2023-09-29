@@ -1,9 +1,9 @@
 <script setup>
-import ClassAndStyleBinding from '../views/ClassStyleBinding.vue'
+import ClassAndStyleBinding from '../components/ClassAndStyleBinding.vue'
 </script>
 
 <template>
   <main>
-    <ClassStyleBinding />
+    <ClassAndStyleBinding />
   </main>
 </template>

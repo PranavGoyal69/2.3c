@@ -15,7 +15,7 @@
       <div class="example">
         <h2>Events [$emit]</h2>
         <p>
-          You can change the message in this component and send it back to the parent using an event.
+          We can change the message in this component and send it back to the parent using an event.
         </p>
         <input type="text" v-model="newMessage" class="input-field" />
         <button @click="updateMessage" class="button">Update Message</button>

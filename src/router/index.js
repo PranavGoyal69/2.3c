@@ -38,7 +38,7 @@ const router = createRouter({
       ,component: () => import('../views/ClassStyleBinding.vue')
     },
     {
-      path: '/Event'
+      path: '/EventHandle'
       ,name: 'Event'
       ,component: () => import('../views/Eventhandle.vue')
     },
@@ -58,7 +58,7 @@ const router = createRouter({
       ,component: () => import('../views/Components.vue')
     },
     {
-      path: '/List'
+      path: '/Listrendering'
       ,name: 'List'
       ,component: () => import('../views/Listrendering.vue')
     },
